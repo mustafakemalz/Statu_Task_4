@@ -106,3 +106,48 @@ body {
   font-size: 12px;
   text-decoration: none;
 }
+.content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+
+}
+.pill {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #2D273F;
+  width: 363px;
+  height: 42px;
+  border-radius: 20px;
+}
+#newtext {
+  gap: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0052FF;
+  width: 48px;
+  height: 24px;
+  border-radius: 20px;
+  font-size: 12px;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}
+.pill-text {
+  gap: 7px;
+  font-size: 12px;
+  color: white;
+}
+.image {
+  display: flex;
+  justify-content: flex-end;
+}
+#img1 {
+  border-radius: 8px;
+}
+.frame108 {
+  display: flex;
+  justify-content: flex-start;
+}
