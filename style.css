@@ -120,6 +120,7 @@ body {
   width: 363px;
   height: 42px;
   border-radius: 20px;
+  margin-left: 10px;
 }
 #newtext {
   gap: 24px;
@@ -136,10 +137,10 @@ body {
   text-decoration: none;
 }
 .pill-text {
+  text-decoration: none;
   gap: 7px;
   font-size: 12px;
   color: white;
-  margin-left: 10px;
 }
 .image {
   display: flex;
