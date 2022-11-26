@@ -99,6 +99,7 @@ body {
   align-items: center;
 }
 #register {
+  color: #0052FF;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -109,12 +110,15 @@ body {
 .content {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   margin-top: 60px;
-
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .pill {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   background: #2D273F;
   width: 363px;
@@ -137,6 +141,8 @@ body {
   text-decoration: none;
 }
 .pill-text {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   gap: 7px;
   font-size: 12px;
@@ -152,4 +158,50 @@ body {
 .frame108 {
   display: flex;
   justify-content: flex-start;
+  flex-direction: column;
+}
+.boldtext {
+  margin-top: 12px;
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+  font-size: 72px;
+  font-weight: 600;
+  width: 592px;
+}
+.smalltext {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  width: 485px;
+  margin-top: 7px;
+}
+.mail {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+
+}
+.mailbox {
+  display: flex;
+  justify-content: flex-start;
+  width: 396px;
+  height: 50px;
+  border-radius: 8px;
+  color: #475467;
+}
+.mailbtn {
+  gap: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0052FF;
+  border-radius: 8px;
+  width: 155px;
+  height: 50px;
+}
+.mailbtn-text {
+  color: white;
+  text-decoration: none;
 }
