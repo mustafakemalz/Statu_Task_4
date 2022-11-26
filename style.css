@@ -139,6 +139,7 @@ body {
   gap: 7px;
   font-size: 12px;
   color: white;
+  margin-left: 10px;
 }
 .image {
   display: flex;
